@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="statistic-block">
+           <div class="title">接入终端数量</div>
+           <div class="number">400,000 台</div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="statistic-block">
+            <div class="title">今日接入数量</div>
+            <div class="number">1,000 K</div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="statistic-block">
+            <div class="title">总储存数据</div>
+            <div class="number">50 PB</div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="statistic-block">
+            <div class="title">今日新增储存数据</div>
+            <div class="number">31,457 MB</div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="statistic-block">
+            <div class="title">当前任务</div>
+            <div class="number">25 个</div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="statistic-block">
+            <div class="title">当前集群数</div>
+            <div class="number">20 个</div>
+        </div>
+    </div>
+        
+    </div>
+    <div class="row">
+      <div class="col">
+          <div class="card">
+              <div class="card-header">接入机型占比</div>
+              <div class="card-body">
+                <div class="vis-block" id="category_vis"></div>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+          <div class="card">
+              <div class="card-header">存储</div>
+              <div class="card-body">
+                <div class="row mb-0">
+                    <div class="vis-block col multip-vis" id="hdfs_vis"></div>
+                    <div class="vis-block col multip-vis" id="rdbm_vis"></div>
+                    <div class="vis-block col multip-vis" id="rdies_vis"></div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-header">30天日均线流量趋势</div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p >
+              <a href=" " class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="card-header">集群性能/近一个小时</div>
+            <div class="card-body">
+              <div class="vis-block line" id="cluster_vis"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>

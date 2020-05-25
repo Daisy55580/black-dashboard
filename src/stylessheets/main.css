@@ -1,0 +1,53 @@
+html {
+  font-family: 'sans-serif';
+}
+body {
+  background-color: #1e1e2f;
+  color: #525f7f;
+  font-size:  .875rem;
+}
+.container {
+  padding: 20px 0;
+}
+.row {
+  margin-bottom: 20px;
+}
+.card {
+  background: #27293d;
+}
+
+.card .card-header {
+  color: #ffffff;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+/**
+* Statistic
+*/
+.statistic-block {
+  background: #27293d;
+  padding: 0.4rem;
+  border-radius: 2px;
+}
+
+.statistic-block .title {
+  color: #9a9a91;
+}
+
+.statistic-block .number {
+  color: #ffffff;
+  font-size: 1.4375rem;
+  font-weight: 400;
+}
+
+.vis-block {
+  width: 520px;
+  height: 260px; 
+}
+
+.multip-vis {
+  padding: 5px;
+}
